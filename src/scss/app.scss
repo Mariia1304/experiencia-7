@@ -1,12 +1,6 @@
-body {
-	background: black;
-	font-size: 30px;
-}
-
-.container {
-	background: black;
-
-	p {
-		font-size: 40px;
-	}
+.section-header {
+    .jumbotron {
+        background-image: url(../images/bg.jpeg);
+        background-size: cover;
+    }
 }
