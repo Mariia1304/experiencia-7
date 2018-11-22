@@ -1,6 +1,19 @@
-.section-header {
+header {
     .jumbotron {
-        background-image: url(../images/bg.jpeg);
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 3.5rem;
+            line-height: 4.5rem;
+        }
+        a {
+            color: #eeeeee;
+        }
+        padding-top: 0;
+        background-image: url();
         background-size: cover;
+        img {
+            height: 200%;
+        }
     }
 }
