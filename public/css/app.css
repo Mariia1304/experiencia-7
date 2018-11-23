@@ -1,0 +1,63 @@
+header .jumbotron {
+  padding-top: 0;
+  background-image: url(../images/bg.jpeg?41cf4fe93a3587be42e55e1e84739ab3);
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+header .jumbotron .navbar-inverse {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), to(transparent));
+  background-image: linear-gradient(to bottom, transparent 0, transparent 100%);
+  margin-bottom: 0;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+header .jumbotron h1 {
+  text-align: center;
+  color: white;
+  font-size: 3.6vw;
+  line-height: 4.5rem;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+header .jumbotron a {
+  color: #eeeeee;
+}
+
+header .jumbotron img {
+  height: 200%;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.container p {
+  text-align: center;
+}
+
+#inscribete {
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+#inscribete h4 {
+  text-align: center;
+}
+
+#inscribete p {
+  text-align: center;
+}
+
+.panel-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.7vw;
+}
+
+.inscripciones {
+  padding-bottom: 10vh;
+}
+
