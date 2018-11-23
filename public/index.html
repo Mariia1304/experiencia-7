@@ -3,17 +3,19 @@
     <head>
         <meta charset="utf-8">
             <title>
-                actividad-7
+                actividad-8
             </title>
             <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
                 <!-- Optional theme -->
                 <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" rel="stylesheet">
-                    <link href="css/app.css" rel="stylesheet">
-                        <script src="jquery/jquery3-3-1.js">
-                        </script>
-                        <!-- Latest compiled and minified JavaScript -->
-                        <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-                        </script>
+                    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+                        <link href="css/app.css" rel="stylesheet">
+                            <script src="jquery/jquery3-3-1.js">
+                            </script>
+                            <!-- Latest compiled and minified JavaScript -->
+                            <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+                            </script>
+                        </link>
                     </link>
                 </link>
             </link>
@@ -22,168 +24,221 @@
     <body>
         <header>
             <div class="jumbotron">
-                <div class="carousel slide " data-ride="carousel" id="myCarousel" style="position: absolute;">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li class="active" data-slide-to="0" data-target="#myCarousel">
-                        </li>
-                        <li data-slide-to="1" data-target="#myCarousel">
-                        </li>
-                        <li data-slide-to="2" data-target="#myCarousel">
-                        </li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img alt="Chania" src="images/happy-people.png">
-                                <div class="carousel-caption">
-                                    <h3>
-                                    </h3>
-                                    <p>
-                                    </p>
-                                </div>
-                            </img>
-                        </div>
-                        <div class="item">
-                            <img alt="Chicago" src="images/bg22.jpeg">
-                                <div class="carousel-caption">
-                                    <h3>
-                                    </h3>
-                                    <p>
-                                    </p>
-                                </div>
-                            </img>
-                        </div>
-                        <div class="item">
-                            <img alt="New York" src="images/bg.jpeg">
-                                <div class="carousel-caption">
-                                    <h3>
-                                    </h3>
-                                    <p>
-                                    </p>
-                                </div>
-                            </img>
-                        </div>
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" data-slide="prev" href="#myCarousel">
-                        <span class="glyphicon glyphicon-chevron-left">
-                        </span>
-                        <span class="sr-only">
-                            Previous
-                        </span>
-                    </a>
-                    <a class="right carousel-control" data-slide="next" href="#myCarousel">
-                        <span class="glyphicon glyphicon-chevron-right">
-                        </span>
-                        <span class="sr-only">
-                            Next
-                        </span>
-                    </a>
-                </div>
-                <!-- -->
-                <!-- <div class="container">
-                    <div class="nav">
-                        <div class="navbar-brand">
-                            <a href="#">
-                                <img alt="Brand" src="images/latam_logo.png">
+                <!--navbar collapse-->
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button">
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img alt="" src="images/latam_logo.png">
                                 </img>
                             </a>
                         </div>
-                        <ul class="nav nav-pills navbar-right">
-                            <li class="" role="presentation">
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#">
-                                    About
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#">
-                                    Contacto
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <h1>
-                        COMIENZA UNA NUEVA VIDA Y
-                        <br>
-                            ÚNETE AL MUNDO
-                            <br>
-                                TECNOLÓGICO
-                            </br>
-                        </br>
-                    </h1>
-                    <div class="row">
-                        <div class="text-center">
-                            <button class="btn btn-primary">
-                                Button
-                            </button>
-                            <button class="btn btn-success">
-                                Button
-                            </button>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#">
+                                        Equipo
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contacto
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                -->
-                <div class="nav" style="position: relative;">
-                    <div class="navbar-brand">
-                        <a href="#">
-                            <img alt="Brand" src="images/latam_logo.png">
-                            </img>
-                        </a>
-                    </div>
-                    <ul class="nav nav-pills navbar-right">
-                        <li class="" role="presentation">
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#">
-                                About
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#">
-                                Contacto
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div style="position: relative;">
-                    <h1>
-                        COMIENZA UNA NUEVA VIDA Y
+                </nav>
+                <!--texto y botones-->
+                <h1>
+                    COMIENZA UNA NUEVA VIDA Y
+                    <br>
+                        ÚNETE AL MUNDO
                         <br>
-                            ÚNETE AL MUNDO
-                            <br>
-                                TECNOLÓGICO
-                            </br>
+                            TECNOLÓGICO
                         </br>
-                    </h1>
-                    <div class="row">
-                        <div class="text-center">
-                            <button class="btn btn-primary">
-                                Button
-                            </button>
-                            <button class="btn btn-success">
-                                Button
-                            </button>
-                        </div>
+                    </br>
+                </h1>
+                <div class="row">
+                    <div class="text-center">
+                        <button class="btn btn-primary">
+                            Button
+                        </button>
+                        <button class="btn btn-success">
+                            Button
+                        </button>
                     </div>
                 </div>
             </div>
         </header>
         <!--Carousel-->
+        <div class="carousel slide " data-ride="carousel" id="myCarousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel">
+                </li>
+                <li data-slide-to="1" data-target="#myCarousel">
+                </li>
+                <li data-slide-to="2" data-target="#myCarousel">
+                </li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img alt="" src="images/carousel1.jpeg">
+                        <div class="carousel-caption">
+                            <h3>
+                            </h3>
+                            <p>
+                            </p>
+                        </div>
+                    </img>
+                </div>
+                <div class="item">
+                    <img alt="" src="images/carousel2.jpeg">
+                        <div class="carousel-caption">
+                            <h3>
+                            </h3>
+                            <p>
+                            </p>
+                        </div>
+                    </img>
+                </div>
+                <div class="item">
+                    <img alt="" src="images/carousel3.jpeg">
+                        <div class="carousel-caption">
+                            <h3>
+                            </h3>
+                            <p>
+                            </p>
+                        </div>
+                    </img>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" data-slide="prev" href="#myCarousel">
+                <span class="glyphicon glyphicon-chevron-left">
+                </span>
+                <span class="sr-only">
+                    Previous
+                </span>
+            </a>
+            <a class="right carousel-control" data-slide="next" href="#myCarousel">
+                <span class="glyphicon glyphicon-chevron-right">
+                </span>
+                <span class="sr-only">
+                    Next
+                </span>
+            </a>
+        </div>
         <!-- seccion con foto de gente-->
         <div class="container">
-            <h1>
-            </h1>
-            <p>
-            </p>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-12">
+                    <h3>
+                        EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum mollitia quas impedit, ipsum ipsam, ipsa.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 col- col-sm-12">
+                    <img alt="" class="img-responsive" src="images/happy-people.png">
+                    </img>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron" id="inscribete">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 col-sm-12">
+                    <h4>
+                        SOLICITA INFORMACIÓN E INSCRIBETE
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-12">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione eius deleniti dolor doloribus adipisci beatae, debitis eligendi quibusdam laboriosam totam?
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-5 col-sm-12">
+                    <div class="text-center">
+                        <button class="btn btn-primary">
+                            Inscríbete!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Sección formulario-->
+        <div class="inscripciones">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-4 col-sm-12">
+                    <p>
+                        Contacto
+                    </p>
+                    <p>
+                        <strong>
+                            Desafío Latam
+                        </strong>
+                        <br>
+                            Ezequias Alliende 2361
+                            <br>
+                                P: +56 95117 7975
+                            </br>
+                        </br>
+                    </p>
+                    <p>
+                        <a href="mailto:inscripciones@desafiolatam.com">
+                            inscripciones@desafiolatam.com
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p>
+                        Suscríbete
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <p>
+                    </p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input class="form-control" id="exampleInputEmail2" placeholder="ingresa tu email.." type="email">
+                            </input>
+                        </div>
+                        <button class="btn btn-default" type="submit">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 col-sm-12">
+                    DESAFÍO LATAM 2018 - CURSO FRONT-END G11
+                </div>
+            </div>
         </div>
     </body>
 </html>
